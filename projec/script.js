@@ -48,3 +48,4 @@ var swiper = new Swiper(".mySwiper", {
 //             '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>"
 //         ]);
 //     });
+
