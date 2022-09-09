@@ -1,0 +1,257 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* .swiper {
+    width: 100%;
+    height: 100%;
+} */
+
+/* .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: black;
+    color: #FFF; */
+
+    /* Center slide text vertically */
+    /* display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+} */
+
+.append-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.append-buttons button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+}
+    
+.dropdown-item:hover{
+    background-color: green;
+}
+
+.nav-link{
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.nav-link:hover{
+    background-color: green;
+    border-radius: 5px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: green;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: green;
+}
+
+/* CSS SLIDER CARD */
+
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    background-color: grey;
+    padding: 40px 0;
+  }
+  
+  .slide-content{
+    margin: 0 40px;
+  }
+  
+  .image-content,
+  .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+  }
+  
+  .image-content{
+    row-gap: 5px;
+    position: relative;
+    padding: 25px 0;
+  }
+  
+  .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #4070F4;
+    left: 0;
+    top:0;
+    border-radius: 25px 25px 0 25px;
+  }
+  
+  .overlay::before,
+  .overlay::after{
+    content: ' ';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #4070F4;
+  }
+  
+  .overlay::after{
+    background-color: rgb(218, 216, 216);
+    border-radius: 0 25px 0 0 ;
+  }
+  
+  .card_slider{
+    width: 320px;
+    border-radius: 25px;
+    background-color: rgb(218, 216, 216);
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  
+  .card-content .name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .card-content .description{
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+  }
+  
+  .card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2.5px solid #FFF;
+    background: #FFF;
+  }
+  
+  .card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #4070F4;
+  }
+  
+  .button {
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: #4070F4;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover{
+    background-color: #265DF2;
+  }
+
+
+  /* CSS CARD */
+
+  .card-img-top{
+    height: 50%;
+    margin-top: 9px;
+    border-radius: 5px;
+  }
+
+  /* CSS FOOTER */
+
+  footer{
+    text-align: center;
+  }
+
+  footer li{
+    list-style: none;
+  }
+
+  footer a{
+    text-decoration: none;
+    color: black;
+  }
+
+  footer h4{
+    margin-bottom: 25%;
+  }
+
+  .social_logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  
